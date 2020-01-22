@@ -5,10 +5,11 @@ import CircularProgress from '@material-ui/core/CircularProgress';
 import Box from '@material-ui/core/Box';
 import SnackbarContent from '@material-ui/core/SnackbarContent';
 import { makeStyles } from '@material-ui/core/styles';
+import {imageSize} from './utils'
 
 const useStyles = makeStyles(theme => ({
     box: {
-        width: 299,
+        width: imageSize,
         padding: 0,
         margin: 0,
     },

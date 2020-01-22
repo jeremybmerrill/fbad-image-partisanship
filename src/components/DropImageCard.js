@@ -3,11 +3,12 @@ import DropzoneIcon from './DropzoneIcon'
 import {useDropzone} from 'react-dropzone';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
+import {imageSize} from './utils'
 
 const useStyles = makeStyles({
     card: {
-        width: 299,
-        height: 299,
+        width: imageSize,
+        height: imageSize,
         position: 'relative',
         display: 'flex',
         alignItems: 'center',
@@ -15,8 +16,8 @@ const useStyles = makeStyles({
         marginBottom: 10,
     },
     canvas: {
-        width: 299,
-        height: 299,
+        width: imageSize,
+        height: imageSize,
         zIndex: 0,
         position: 'absolute',
     },
@@ -42,7 +43,7 @@ export default function DropImageCard({setFile, canvasRef, fileLoaded}) {
     const {getRootProps, getInputProps, isDragActive} = useDropzone({onDrop})
 
     return <Card {...getRootProps()} className={classes.card}>
-        <canvas className={classes.canvas} ref={canvasRef} width={299} height={299} />
+        <canvas className={classes.canvas} ref={canvasRef} width={imageSize} height={imageSize} />
         <input alt="Image Dropzone" type="image" className={classes.input} {...getInputProps()} />
         <DropzoneIcon fileLoaded={fileLoaded} isDragActive={isDragActive} />
     </Card>

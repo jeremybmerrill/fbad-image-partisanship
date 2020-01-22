@@ -28,7 +28,7 @@ export default function Predictions({output}) {
     const items = getTopK(output, 5).map(({breed, prob}) => ({
         name: getBreed(breed),
         percentage: (prob * 100).toFixed(2),
-        avatar: getBreedImg(breed),
+        // avatar: getBreedImg(breed),
     }));
     return <Scorecard items={items} />;
 }
