@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c75e66cefa0e3311aa32cafa3b856afb",
+    "revision": "68fecc0d4c56e8a0f55495375399954d",
     "url": "/fbad-image-partisanship/index.html"
   },
   {
