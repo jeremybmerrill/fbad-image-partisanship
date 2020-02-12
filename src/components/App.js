@@ -55,28 +55,18 @@ function App() {
         <AppBar position="static">
             <Toolbar>
                 <Typography variant="h6" className={classes.title}>
-                    Image Partisanship Classifier
+                    Political Ad Image Partisanship Classifier
                 </Typography>
             </Toolbar>
         </AppBar>
+
         <Container className={classes.content}>
+            <Typography variant="body2" className={classes.title}>
+                Click Load Model, wait a few seconds for it to load, then drag and drop an image file on the image icon. The model will guess its partisanship!
+            </Typography>
             <Classifier />
         </Container>
         <Container className={classes.content}>
-            <ExpansionPanel>
-                <ExpansionPanelSummary
-                expandIcon={<ExpandMoreIcon />}
-                aria-controls="panel1a-content"
-                id="panel1a-header"
-                >
-                <Typography className={classes.heading}>How do I use this?</Typography>
-                </ExpansionPanelSummary>
-                <ExpansionPanelDetails>
-                <Typography variant="body2">
-                    Tab on the image icon to take a photo and drag and drop an image file on the image icon to classify the image's partisanship. Note that (a) this is kind of silly even for Facebook ad images and (b) if you submit an image that isn't from a Facebook ad, the prediction will be meaningless.
-                </Typography>
-                </ExpansionPanelDetails>
-            </ExpansionPanel>
             <ExpansionPanel>
                 <ExpansionPanelSummary
                 expandIcon={<ExpandMoreIcon />}
@@ -87,7 +77,7 @@ function App() {
                 </ExpansionPanelSummary>
                 <ExpansionPanelDetails>
                 <Typography variant="body2">
-                    TK
+                    Not much. If you submit an image that isn't from a Facebook ad, the prediction will be meaningless. And even for Facebook ad images, this is kind of silly, since partisanship doesn't predict all that much of ad image content.
                 </Typography>
                 </ExpansionPanelDetails>
             </ExpansionPanel>
@@ -116,7 +106,7 @@ function App() {
                 <ExpansionPanelDetails>
                     <Container>
                         <Typography variant="body2">
-                            I borrowed this app and much of the code from [David Pfahler](https://github.com/davidpfahler). The Image partisanship bit is all me though. If you want to learn more about the app code, check out the <Link to="https://github.com/davidpfahler/react-ml-app">GitHub repository</Link>.
+                            I borrowed this app and much of the code from <a href="https://github.com/davidpfahler">David Pfahler</a>. The Image partisanship bit is all me though. If you want to learn more about the app code, check out the <a href="https://github.com/davidpfahler/react-ml-app">GitHub repository</a>.
                         </Typography>
                     </Container>
                 </ExpansionPanelDetails>

@@ -2,12 +2,13 @@
   "name": "react-ml-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/react-ml-app",
+  "homepage": "https://jeremybmerrill.github.io/fbad-image-partisanship",
   "dependencies": {
     "@material-ui/core": "^4.5.0",
     "@material-ui/icons": "^4.4.3",
     "@tensorflow/tfjs": "^1.2.11",
     "blueimp-load-image": "^2.24.0",
+    "gh-pages": "^2.2.0",
     "ndarray": "^1.0.18",
     "ndarray-ops": "^1.2.2",
     "onnxjs": "^0.1.7",
@@ -17,6 +18,8 @@
     "react-scripts": "3.2.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
