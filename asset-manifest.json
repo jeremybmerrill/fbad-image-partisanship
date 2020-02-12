@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/fbad-image-partisanship/static/js/main.2ed2937c.chunk.js",
-    "main.js.map": "/fbad-image-partisanship/static/js/main.2ed2937c.chunk.js.map",
+    "main.js": "/fbad-image-partisanship/static/js/main.67986805.chunk.js",
+    "main.js.map": "/fbad-image-partisanship/static/js/main.67986805.chunk.js.map",
     "runtime-main.js": "/fbad-image-partisanship/static/js/runtime-main.7b27eb47.js",
     "runtime-main.js.map": "/fbad-image-partisanship/static/js/runtime-main.7b27eb47.js.map",
     "static/js/2.f7d0f4f4.chunk.js": "/fbad-image-partisanship/static/js/2.f7d0f4f4.chunk.js",
     "static/js/2.f7d0f4f4.chunk.js.map": "/fbad-image-partisanship/static/js/2.f7d0f4f4.chunk.js.map",
     "index.html": "/fbad-image-partisanship/index.html",
-    "precache-manifest.124c353de59a1029d5680f71ede4aa26.js": "/fbad-image-partisanship/precache-manifest.124c353de59a1029d5680f71ede4aa26.js",
+    "precache-manifest.81581175721bee146d2cd9d07d446ad8.js": "/fbad-image-partisanship/precache-manifest.81581175721bee146d2cd9d07d446ad8.js",
     "service-worker.js": "/fbad-image-partisanship/service-worker.js",
     "static/media/image_partisanship.onnx": "/fbad-image-partisanship/static/media/image_partisanship.79fad1aa.onnx"
   },
   "entrypoints": [
     "static/js/runtime-main.7b27eb47.js",
     "static/js/2.f7d0f4f4.chunk.js",
-    "static/js/main.2ed2937c.chunk.js"
+    "static/js/main.67986805.chunk.js"
   ]
 }
