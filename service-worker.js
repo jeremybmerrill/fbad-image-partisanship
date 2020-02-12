@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/fbad-image-partisanship/precache-manifest.dfc02c870106346678a01c9d4a68b89d.js"
+  "/fbad-image-partisanship/precache-manifest.124c353de59a1029d5680f71ede4aa26.js"
 );
 
 self.addEventListener('message', (event) => {
